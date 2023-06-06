@@ -1,7 +1,7 @@
 install: 
 	poetry install
 lint:
-	poetry run flake8 brain_even	
+	poetry run flake8	
 build: 
 	poetry build
 publish: 
