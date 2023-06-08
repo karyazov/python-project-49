@@ -30,7 +30,7 @@ def a_progression():
         progression = progression + ' ' + str(val)
         i += 1
 
-    print('Question: ' + progression)
+    print('Question:' + progression)
 
     return str(user_question)
 
