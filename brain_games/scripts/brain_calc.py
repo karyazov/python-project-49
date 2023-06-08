@@ -22,13 +22,13 @@ def main():
         match operation:
             case '*':
                 result = question_num1 * question_num2
-                text_operation = str(question_num1) + '*' + str(question_num2)
+                text_operation = str(question_num1) + ' * ' + str(question_num2)
             case '+':
                 result = question_num1 + question_num2
-                text_operation = str(question_num1) + '+' + str(question_num2)
+                text_operation = str(question_num1) + ' + ' + str(question_num2)
             case '-':
                 result = question_num1 - question_num2
-                text_operation = str(question_num1) + '-' + str(question_num2)
+                text_operation = str(question_num1) + ' - ' + str(question_num2)
 
         question_need = str(result)
 
