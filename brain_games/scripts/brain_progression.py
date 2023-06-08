@@ -25,7 +25,7 @@ def a_progression():
 
         if i == hide_number:
             user_question = val
-            val = '.. '
+            val = '..'
 
         progression = progression + ' ' + str(val)
         i += 1
